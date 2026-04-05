@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>        
+      <class name="crm_VendorAPI.HttpRequestPOST_Analytics"/>
+      <class name="crm_VendorAPI.HttpRequestPOST_Manufacture"/>
+      <class name="crm_VendorAPI.HttpRequestGET_Users"/>
+      <class name="crm_VendorAPI.HttpRequestPOST_Equipment"/>
+      <class name="crm_VendorAPI.HttpRequestPOST_Users"/>
+      <class name="crm_VendorAPI.HttpRequestPOST_Department"/>      
+      <class name="crm_VendorAPI.HttpRequestGET_Analytics"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
